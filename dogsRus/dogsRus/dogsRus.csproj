@@ -212,9 +212,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201509010536570_initial.cs" />
-    <Compile Include="Migrations\201509010536570_initial.Designer.cs">
-      <DependentUpon>201509010536570_initial.cs</DependentUpon>
+    <Compile Include="Migrations\201509010617562_initial.cs" />
+    <Compile Include="Migrations\201509010617562_initial.Designer.cs">
+      <DependentUpon>201509010617562_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -227,6 +227,17 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.js" />
+    <Content Include="app\app.route.js" />
+    <Content Include="app\components\create\createController.js" />
+    <Content Include="app\components\create\createService.js" />
+    <Content Include="app\components\create\createView.html" />
+    <Content Include="app\components\home\homeController.js" />
+    <Content Include="app\components\home\homeService.js" />
+    <Content Include="app\components\home\homeView.html" />
+    <Content Include="app\components\list\listController.js" />
+    <Content Include="app\components\list\listService.js" />
+    <Content Include="app\components\list\listView.html" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -300,8 +311,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201509010536570_initial.resx">
-      <DependentUpon>201509010536570_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201509010617562_initial.resx">
+      <DependentUpon>201509010617562_initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

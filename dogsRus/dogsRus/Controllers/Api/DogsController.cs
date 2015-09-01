@@ -18,5 +18,14 @@ namespace dogsRus.Controllers.Api
 
             return Ok(dogs);
         }
+        
+        public IHttpActionResult Post(Dog dog)
+        {
+            _db.Dogs.Add(dog);
+
+            _db.SaveChanges();
+
+            return Ok("Well it worked homie");
+        }
     }
 }

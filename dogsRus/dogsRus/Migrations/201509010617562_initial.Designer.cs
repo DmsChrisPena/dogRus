@@ -13,7 +13,7 @@ namespace dogsRus.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201509010536570_initial"; }
+            get { return "201509010617562_initial"; }
         }
         
         string IMigrationMetadata.Source
